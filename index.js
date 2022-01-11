@@ -56,7 +56,9 @@ Do the following:
    HINT: look up the Number method
 */
 
-
+let stringNum = '1999';
+stringNum = Number.parseInt(stringNum);
+console.log(stringNum);
 
 
 /*
