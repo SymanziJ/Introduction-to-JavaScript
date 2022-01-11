@@ -86,10 +86,16 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(humanYears){
+  let years;
+  if (humanYears > 0 && typeof(humanYears) === 'number') {
+    years = humanYears * 7;
+  } else {
+    years = 'Not a valid number';
+  }
+  return years;
 }
-
+dogYears(28);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
